@@ -1,0 +1,26 @@
+{
+    "name": "anonymous-php/config",
+    "type": "library",
+    "description": "Simple config implementation which uses PSR-11 Container as a storage",
+    "keywords": [
+        "container",
+        "psr-11",
+        "config"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anonymous PHP Developer",
+            "email": "anonym.php@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Anonymous\\Config\\": "src/"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0",
+        "anonymous-php/containers": "^1.0"
+    }
+}
